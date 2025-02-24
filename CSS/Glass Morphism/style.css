@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    height: 12em;
+    width: 12em;
+    backdrop-filter: blur(4px);
+    /* box-shadow: 0px 0px 30px 2px #4d4d4d inset, 0px 0px 29px 1px black; */
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.box:hover{
+    transition: all 1s ease-in-out;
+    box-shadow: 1px 0px 20px 1px black, inset 0px 0px 33px 1px black;
+
+}
