@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.resize{
+    height: 15em;
+    width: 15em;
+    background-color: rgb(151, 64, 2);
+}
+#resize1{
+    resize: both;
+    overflow: hidden;
+}
+#resize2{
+    resize: horizontal;
+    overflow: hidden;
+}
+#resize3{
+    resize: vertical;
+    overflow: hidden;
+}
