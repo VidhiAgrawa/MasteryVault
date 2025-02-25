@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    height: 4em;
+    width: 11em;
+    border-radius: 2em;
+    background-color: rgb(33, 122, 176);
+    color: white;
+    border: none;
+    gap: 2em;
+    margin-left: 2em;
+}
+.btn:not(:has(h4)){
+    background-color: black;
+}
