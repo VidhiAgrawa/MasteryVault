@@ -10,6 +10,7 @@ body{
     background-color: lightgrey;
 }
 .cardBox{
+    height: 25em;
     width: 25em;
     display: flex;
     overflow-x: scroll;
@@ -26,4 +27,8 @@ body{
     text-align: center;
     flex-shrink: 0;
     scroll-snap-align: center;
+    gap: 2em;
+}
+p{
+    margin-top: 2em;
 }
