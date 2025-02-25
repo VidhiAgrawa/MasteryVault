@@ -14,7 +14,7 @@ body{
     height: 3em;
     width: 10em;
 }
-body:has( option[value="dark"]:checked ){
+body:has(select:focus-within option[value="dark"]:checked ){
     background-color: black;
     color: white;
 }

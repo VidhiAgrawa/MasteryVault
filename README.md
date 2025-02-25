@@ -26,3 +26,20 @@
           for dark and light mode
 
    8) Gradient and Image on text :-  
+          to apply gradient and image on the text
+
+   9) focus-within :-
+          used in mode folder
+
+   10) For counting multiple lines :-
+          :root{
+               counter-reset : any name;
+          }
+          h2{
+               counter-increment: name;
+          }
+          h2::before{
+               content: counter(name);
+          }
+
+   11) For scrolling cards(like Swiper) :- 
