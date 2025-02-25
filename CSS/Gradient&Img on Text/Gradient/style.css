@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+h1{
+    font-size: 7em;
+    font-weight: 800;
+    background: linear-gradient( to left, #AC1754, #F7A8C4 );
+    background-clip: text;
+    color: transparent;
+}

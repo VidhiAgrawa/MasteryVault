@@ -14,3 +14,15 @@
 
    4) CheckBox :-
         using checkBox in css instead of javascript
+
+   5) Glass Morphism :-
+         backdrop filter
+
+   6) not() and has() :-
+          not is used forexcluding element
+          has is used selecting element that has specific thing which we want
+
+   7) Mode :-
+          for dark and light mode
+
+   8) Gradient and Image on text :-  
