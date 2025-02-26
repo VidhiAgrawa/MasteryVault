@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.imageDiv{
+    width: min( 60em, 100% );
+    margin: 0 auto;
+    columns: 3 50em;
+}
+.img{
+    display: block;
+    width: 100%;
+}
