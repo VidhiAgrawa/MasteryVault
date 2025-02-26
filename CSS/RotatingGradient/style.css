@@ -18,8 +18,8 @@ body{
 }
 .gradient2{
     height: 20em;
-    width: 20em;
     border-radius: 50%;
+    width: 20em;
     animation: spin 4s linear infinite;
     background-image: conic-gradient( from var(--angle), #ff00cc, #3333ff );
 

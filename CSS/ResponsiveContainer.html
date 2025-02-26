@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Container Query Example</title>
+  <style>
+    /* Main Card */
+    .card {
+      container-type: inline-size; /* Enables container query */
+      border: 2px solid #4CAF50;
+      padding: 1rem;
+      max-width: 600px; /* Control max size */
+    }
+
+    /* Default Content Style */
+    /* .card-content {
+      display: block;
+    } */
+
+    /* When the Card is wider than 400px */
+    @container (min-width: 400px) {
+      .card-content {
+        display: flex; /* Switch to flex layout */
+        gap: 1rem; /* Space between items */
+      }
+    }
+    .text {
+      flex: 2; /* Text takes more space */
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Responsive Card with Container Query</h2>
+
+  <div class="card">
+    <div class="card-content">
+      <div class="text">
+        <p>This card layout changes based on its own width!</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
