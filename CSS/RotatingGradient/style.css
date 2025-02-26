@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gradient{
+    height: 20em;
+    width: 20em;
+    border: 2em solid;
+    border-radius: 50%;
+    animation: spin 4s linear infinite;
+    border-image: conic-gradient( from var(--angle), indigo, #366A81 ) 1;
+}
+.gradient2{
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+    animation: spin 4s linear infinite;
+    background-image: conic-gradient( from var(--angle), #ff00cc, #3333ff );
+
+}
+@property --angle{
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+}
+@keyframes spin {
+    0%{
+        --angle: 0deg;
+    }
+    100%{
+        --angle: 360deg;
+    }
+}
